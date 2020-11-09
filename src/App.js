@@ -10,7 +10,7 @@ const App = () => {
       <BrowserRouter>
         <Container>
           <Switch>
-            <Route path="/articles/new" component={ArticleForm} />
+            <Route path="/" component={ArticleForm} />
             <Route path="/articles/:articleId/edit" component={ArticleForm} />
             <Route path="/articles/:articleId" component={Article} />
             <Route path="/articles" component={Articles} />
